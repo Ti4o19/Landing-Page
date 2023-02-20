@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0; 
+}
+#header{
+   width: 100%;
+   height: 300px;
+   background-color: #233142;
+   
+   
+}
+#vtorDiv{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+#tretDiv{
+    width: 100%;
+    height: 400px;
+    background-color: #ececec;
+    display: flex;
+    flex-direction: column;
+}
+#cetvrtDiv{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navBar-container{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 1320px;
+    align-items: center;
+}
+#navBar-container .logo{
+    flex: 3
+}
+.child-element{
+    flex: 1;
+    padding-top: 10px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 80px;
+}
+#prvDiv-container{
+   
+    width:1180px;
+    height: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+
+    
+}
+#tekst{
+    flex: 1;
+    padding-right: 40px;
+    
+}
+#slika{
+    flex: 1;
+    object-fit: cover;
+    
+}
+
+#mainTitle{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+#subTitle{
+    color: white;
+    font-family: sans-serif;
+}
+#prvBtn{
+    background-color: #24a0ed;
+    border:none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-bottom: 100px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.card{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #24a0ed;
+    border-radius: 10px;
+}
+.underDiv{
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+.quote{
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 50px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    flex: 1;
+}
+.author{
+    font-size: 20px;
+    padding-bottom: 70px;
+    padding-left: 1100px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.signUp{
+    width: 700px;
+    height: 150px;
+    background-color: #24a0ed;
+    color: white;
+    border-radius: 15px;
+}
+.posleden-container{
+    padding: 50px;
+    display: flex;
+}
+
+#gorenText{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#dolenText{
+    font-family: sans-serif;
+    color: antiquewhite;
+}
+#vtorBtn{
+    border:none;
+    background-color: white;
+    color: #24a0ed;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.text-container{
+    flex: 1;
+}
